@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background: orangered;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  grid-gap: 2px;
+  padding: 5px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: royalblue;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: cursive;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px black solid;
+  background: greenyellow;
+  font-size: 75px;
+}
